@@ -15,7 +15,7 @@
  
     Model Phi-2                 1Gb 
  
-# Limintation: Only 1 model chat at same time  
+# Limitation: Only 1 model chat at same time  
 
 # BUILD AND RUN CONTAINERS using compose 
 
