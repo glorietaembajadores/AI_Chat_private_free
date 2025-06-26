@@ -27,3 +27,5 @@ docker rm -f ollama && docker rm -f open-webui && docker compose up -d --force-r
 
 
 # Enter in the WEB UI and enjoy several CHAT AI LLM Models  --->  http://localhost:3000  <---------------
+
+
