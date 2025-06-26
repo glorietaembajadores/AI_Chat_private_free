@@ -1,15 +1,17 @@
 # Create a CHAT AI LLM with several Open Source Models 
 # Private: Chats runs only in your machine
 # WAIT 3 minutes until  all models are downloaded    
-    Model LLAMA Tiny   1Gb
+    Model   Llama 3 8B          6Gb
+
+    Model LLAMA Tiny            1Gb
  
-    Model Gemma 2B    1Gb
+    Model Gemma 2B              1Gb
  
-    Model Mistral  size 4Gb 
+    Model Mistral               4Gb 
  
-    Model LLAMA2  4Gb 
+    Model LLAMA2                4Gb 
  
-    Model Phi-2   1Gb 
+    Model Phi-2                 1Gb 
  
 # Limintation: Only 1 model chat at same time  
 
