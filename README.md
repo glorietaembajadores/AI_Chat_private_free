@@ -1,7 +1,7 @@
 # Create a CHAT AI LLM with several Open Source Models 
 # Private: Chats runs only in your machine
 # WAIT 3 minutes until  all models are downloaded    
-# Needs Docker installed and min. 14Gb RAM
+# Needs Docker installed and min. 14Gb RAM, NO GPU required
 
     Model   Llama 3 8B          6Gb
 
