@@ -21,6 +21,6 @@ services:
     environment:
       OLLAMA_BASE_URL: "http://ollama:11434"
     restart: unless-stopped
-    entrypoint: ["/bin/sh", "-c", "echo 'Waiting  2 minutes for downloading models in ollama container...........'; sleep 120; exec bash /app/backend/start.sh"]
+    entrypoint: ["/bin/sh", "-c", "echo 'Waiting some minutes for downloading models in ollama container...........'; sleep 120; exec bash /app/backend/start.sh"]
 volumes:
   ollama_data:
