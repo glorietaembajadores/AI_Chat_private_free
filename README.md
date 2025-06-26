@@ -14,8 +14,10 @@
 # Limintation: Only 1 model chat at same time  
 
 # BUILD AND RUN CONTAINERS using compose 
-docker build -t mi-ollama-init:latest -f Dockerfile .
 
+git clone https://github.com/glorietaembajadores/AI_Chat_private_free.git
+cd AI_Chat_private_free
+docker build -t mi-ollama-init:latest -f Dockerfile .
 docker compose up -d --force-recreate
 
 # Enter in the WEB UI and enjoy several CHAT AI LLM Models  --->  http://localhost:3000  <---------------
