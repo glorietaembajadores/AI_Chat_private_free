@@ -1,0 +1,27 @@
+services:
+  ollama:
+    image: mi-ollama-init:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+    ###environment:
+    #####  - OLLAMA_ACCELERATOR=cpu
+
+# ... WEBUI
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3000:8080"
+    depends_on:
+      - ollama
+    environment:
+      OLLAMA_BASE_URL: "http://ollama:11434"
+    restart: unless-stopped
+    entrypoint: ["/bin/sh", "-c", "echo 'Waiting  2 minutes for downloading models in ollama container...........'; sleep 120; exec bash /app/backend/start.sh"]
+volumes:
+  ollama_data:
+
