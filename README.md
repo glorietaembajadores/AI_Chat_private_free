@@ -21,7 +21,7 @@ cd AI_Chat_private_free
 
 docker build -t mi-ollama-init:latest -f Dockerfile .
 
-docker compose up -d --force-recreate
+docker rm -f ollama && docker rm -f open-webui && docker compose up -d --force-recreate
 
 
 # Enter in the WEB UI and enjoy several CHAT AI LLM Models  --->  http://localhost:3000  <---------------
