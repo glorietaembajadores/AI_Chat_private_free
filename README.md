@@ -1,4 +1,4 @@
-# Create a WEB CHAT AI LLM with several Open Source Models 
+# VJIB Create a WEB CHAT AI LLM with several Open Source Models 
 # Private: Chats runs only in your machine
 # WAIT 3 minutes until  all models are downloaded    
 # Needs Docker installed and min. 14Gb RAM, NO GPU required
